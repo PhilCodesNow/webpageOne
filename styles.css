@@ -2,11 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: Roboto;
-    font-weight: 375;
+    font-weight: 400;
 }
 header{
     width: 100%;
-    margin: 0 10%;
     height: 10vh;
 }
 header div{
@@ -16,10 +15,12 @@ header div{
     margin: 1em 0;
 }
 .logo h1{
-    font-weight: 500;    
+    font-weight: 500;
+    margin-left: 3em;    
 }
 .navbar ul{
     display: flex;
+    justify-content: center;
 }
 .navbar ul li{
     padding: 0 .6em;
@@ -61,4 +62,92 @@ header div{
 }
 .imgup{
     margin-bottom: 3em;
+}
+.midtext{
+    display: flex;
+
+}
+.midtext div{
+    width: 31%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 5em 0 5em 10em;
+
+}
+.midtext div h2, .midimgtext1 h2, .formdiv div h2{
+    font-size: 3rem;
+    padding-top: .4em;
+}
+.midtext div p{
+    display: block;
+    padding: .5em 0;
+}
+#firstp {
+    margin-top: 3em;
+}
+.midimgtext{
+    display: flex;
+}
+.midimgtext1{
+    width: 31%;
+    margin: 0 auto;
+    padding: 5em 0 5em 10em;
+
+}
+.midimgtext2{
+    width: 49%;
+}
+.midimgtext2 div{
+    width: 90%;
+    margin: 0 auto;
+}
+.midtextimg{
+    max-width: 30em;
+}
+.instfeed{
+    text-align: center;
+}
+
+.instfeedheader{
+    text-align: center;
+}
+.instfeedheader h2{
+    font-size: 2em;
+    margin: 3.5em 0 1em 0;
+}
+.instfeedflex{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.instfeedflex img{
+    max-width: 16em;
+    padding: 2em 1em;
+}
+.instfeedbutton{
+    padding: 1em 4em;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 3px;
+    margin: 2.2em 0;
+}
+.instfeedbutton a{
+    text-decoration: none;
+    color: white;
+}
+.formdiv{
+    display: flex;
+}
+.formdiv div{
+    width: 31%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 5em 0 5em 10em;
+}
+#secondp{
+    margin-top: 2em;
+}
+.formdiv form label{
+    display: block;
 }
