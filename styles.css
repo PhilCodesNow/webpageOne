@@ -148,6 +148,27 @@ header div{
 #secondp{
     margin-top: 2em;
 }
+.formdiv form{
+    width: 50%;
+}
+.formdiv fieldset{
+    width: 70%;
+    border: none;
+}
 .formdiv form label{
     display: block;
+    padding: .3em 0;
+}
+.formdiv form label input{
+    display: block;
+    width: 90%;
+    background-color: rgba(123, 120, 120, 0.3);
+    padding: .8em;
+    border: none;
+}
+.formdiv form textarea{
+    width: 90%;
+    background-color: rgba(123, 120, 120, 0.3);
+    padding: .8em;
+    border: none;
 }

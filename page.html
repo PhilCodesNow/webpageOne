@@ -81,12 +81,14 @@
                 <p id="secondp">Leave your e-mail and we will contact you soon</p>
             </div>
             <form action="submit">
-                <label for="name"><Name></Name>
-                <input required type="text"></label>
-                <label for="lname">Last name<input type="text"></label>
-                <label for="email">Your email* <input type="email"></label>
-                <label for="message"><textarea name="message" id="message" cols="30" rows="10"></textarea></label>
-                <input type="submit">
+                <fieldset>
+                    <label for="name">Name*
+                    <input required placeholder="Your name" type="text"></label>
+                    <label for="lname">Last name<input placeholder="Your last name" type="text"></label>
+                    <label for="email">Your email* <input placeholder="example@mail.com" type="email"></label>
+                    <label for="message">Message <textarea name="message" placeholder="Enter your message" id="message" cols="30" rows="10"></textarea></label>
+                    <input type="submit">
+                </fieldset>
             </form>
         </div>
     </main>
